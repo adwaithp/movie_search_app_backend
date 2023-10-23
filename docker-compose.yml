@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis  # Add a dependency on the Redis container
+    environment:
+      - DEBUG=True
+      - DJANGO_DB_HOST=db
+      - DJANGO_DB_PORT=5432
+      - DJANGO_DB_NAME=movie_search_db
+      - DJANGO_DB_USER=db_user
+      - DJANGO_DB_PASSWORD=db_password
+
+  celery-worker:
+    build: .
+    command: celery -A movie_search_project worker --loglevel=info
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+      - redis  # Add a dependency on the Redis container
+    environment:
+      - DEBUG=True
+      - DJANGO_SETTINGS_MODULE=movie_search_project.settings
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+
+  celery-beat:
+    build: .
+    command: celery -A movie_search_project beat --loglevel=info
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+      - redis  # Add a dependency on the Redis container
+    environment:
+      - DEBUG=True
+      - DJANGO_SETTINGS_MODULE=movie_search_project.settings
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: movie_search_db
+      POSTGRES_USER: db_user
+      POSTGRES_PASSWORD: db_password
+
+  redis:
+    image: redis
