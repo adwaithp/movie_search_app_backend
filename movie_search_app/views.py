@@ -1,12 +1,17 @@
 from django.db import ProgrammingError
-from rest_framework import generics
+from rest_framework import generics, permissions
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.decorators import authentication_classes, permission_classes
+from rest_framework.generics import RetrieveAPIView
+from rest_framework.permissions import IsAuthenticated
+
 from .models import CustomUser, Movie
 from .serializers import CustomUserSerializer, MovieSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.authtoken.models import Token
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, logout
 
 
 class UserRegistration(generics.CreateAPIView):
@@ -41,7 +46,17 @@ class UserLogin(APIView):
             print(e)
             return Response({'message': e})
 
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+class UserLogout(APIView):
+    def post(self, request):
+        # Log the user out
+        logout(request)
+        return Response({'message': 'Successfully logged out'}, status=status.HTTP_200_OK)
 
+
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 class MovieList(generics.ListAPIView):
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
@@ -56,4 +71,11 @@ class MovieList(generics.ListAPIView):
             queryset = queryset.filter(title__icontains=search_query)
 
         return queryset
+
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+class MovieDetailAPIView(RetrieveAPIView):
+    queryset = Movie.objects.all()
+    serializer_class = MovieSerializer
+
 
