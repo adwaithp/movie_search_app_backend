@@ -1,7 +1,8 @@
 # serializers.py
 from django.contrib.auth.hashers import make_password
 from rest_framework import serializers
-from .models import CustomUser,Movie
+from .models import CustomUser, Movie
+
 
 class CustomUserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -14,8 +15,6 @@ class CustomUserSerializer(serializers.ModelSerializer):
         validated_data['password'] = make_password(password)
         user = CustomUser.objects.create(**validated_data)
         return user
-
-
 
 
 class MovieSerializer(serializers.ModelSerializer):

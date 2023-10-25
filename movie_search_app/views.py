@@ -1,5 +1,5 @@
 from django.db import ProgrammingError
-from rest_framework import generics, permissions
+from rest_framework import generics
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.generics import RetrieveAPIView
@@ -30,7 +30,7 @@ class UserLogin(APIView):
 
             user = authenticate(request, username=email, password=password)
             print(user)
-            if CustomUser.objects.filter(email=email,password=password).exists():
+            if CustomUser.objects.filter(email=email, password=password).exists():
                 print("User exists")
             else:
                 print("Not exists")
@@ -42,9 +42,10 @@ class UserLogin(APIView):
                 return Response({'token': token.key}, status=status.HTTP_200_OK)
             else:
                 return Response({'message': 'Login failed'}, status=status.HTTP_401_UNAUTHORIZED)
-        except ProgrammingError  as e:
+        except ProgrammingError as e:
             print(e)
             return Response({'message': e})
+
 
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
@@ -67,15 +68,14 @@ class MovieList(generics.ListAPIView):
         # Check if a search query parameter is provided
         search_query = self.request.query_params.get('keyword')
         if search_query:
-            # Filter movies based on the search query
+            print(search_query)
             queryset = queryset.filter(title__icontains=search_query)
 
         return queryset
+
 
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
 class MovieDetailAPIView(RetrieveAPIView):
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
-
-

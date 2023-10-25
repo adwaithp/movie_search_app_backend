@@ -4,6 +4,7 @@ import requests
 from movie_search_app.models import Movie
 from django.utils.timezone import now
 
+
 @shared_task
 def fetch_and_save_tmdb_data():
     try:
@@ -44,6 +45,3 @@ def fetch_and_save_tmdb_data():
         print(f"Saved {len(all_movies)} movies at {now()}")
     except Exception as e:
         print(f'Execption occured {e}')
-
-
-

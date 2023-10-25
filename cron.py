@@ -6,6 +6,7 @@ import requests
 from movie_search_app.models import Movie
 from django.utils.timezone import now
 
+
 def fetch_and_save_tmdb_data():
     try:
         url = 'https://api.themoviedb.org/3/discover/movie'
@@ -31,7 +32,7 @@ def fetch_and_save_tmdb_data():
                 data = response.json().get('results', [])
                 if not data:
                     break  # No more data to fetch
-                movie, created = Movie.objects.all().last()
+                movie = Movie.objects.all().last()
                 movie.title = data['title']
                 movie.overview = data['overview']
                 movie.rating = data['vote_average']
@@ -45,5 +46,6 @@ def fetch_and_save_tmdb_data():
         print(f"Saved {len(all_movies)} movies at {now()}")
     except Exception as e:
         print(f'Execption occured {e}')
+
 
 fetch_and_save_tmdb_data()
