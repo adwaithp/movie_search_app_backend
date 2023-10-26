@@ -3,6 +3,7 @@ from rest_framework import generics
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.generics import RetrieveAPIView
+from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
 
 from .models import CustomUser, Movie
@@ -47,8 +48,7 @@ class UserLogin(APIView):
             return Response({'message': e})
 
 
-@authentication_classes([TokenAuthentication])
-@permission_classes([IsAuthenticated])
+
 class UserLogout(APIView):
     def post(self, request):
         # Log the user out
@@ -56,16 +56,29 @@ class UserLogout(APIView):
         return Response({'message': 'Successfully logged out'}, status=status.HTTP_200_OK)
 
 
+class CustomPagination(PageNumberPagination):
+    page_query_param = 'page'  # Specify the query parameter for the page number
+    page_size = 15  # Set the number of items per page
+    page_size_query_param = 'page_size'  # Specify the query parameter for page size
+    max_page_size = 100  # Set the maximum page size
+
+    def get_paginated_response(self, data):
+        return Response({
+            'current_page': self.page.number,  # Include the current page number in the response
+            'total_pages': self.page.paginator.num_pages,
+            'count': self.page.paginator.count,
+            'results': data
+        })
+
+
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
 class MovieList(generics.ListAPIView):
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
-
+    pagination_class = CustomPagination
     def get_queryset(self):
         queryset = Movie.objects.all()
-
-        # Check if a search query parameter is provided
         search_query = self.request.query_params.get('keyword')
         if search_query:
             print(search_query)

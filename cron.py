@@ -32,13 +32,14 @@ def fetch_and_save_tmdb_data():
                 data = response.json().get('results', [])
                 if not data:
                     break  # No more data to fetch
-                movie = Movie.objects.all().last()
-                movie.title = data['title']
-                movie.overview = data['overview']
-                movie.rating = data['vote_average']
-                movie.release_date = data['release_date']
-                movie.save()
-                page += 1
+                for movie in data:
+                    movie = Movie.objects.all().last()
+                    movie.title = movie['title']
+                    movie.overview = movie['overview']
+                    movie.rating = movie['vote_average']
+                    movie.release_date = movie['release_date'] if movie['release_date'] else '0000-00-00'
+                    movie.save()
+                    page += 1
             else:
                 print(f"Failed to fetch data from TMDb API (page {page}): {response.status_code}")
                 break
