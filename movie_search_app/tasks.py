@@ -1,7 +1,6 @@
 from celery import shared_task, Celery
 import requests
 from celery.schedules import crontab
-
 from movie_search_app.models import Movie
 from django.utils.timezone import now
 import logging
@@ -15,7 +14,7 @@ app = Celery('your_app_name', broker='redis://redis:6379/0', backend='redis://re
 app.conf.beat_schedule = {
     'fetch-tmdb-data-every-hour': {
         'task': 'movie_search_project.tasks.fetch_and_save_tmdb_data',
-        'schedule': crontab(minute=1),  # Run every hour
+        'schedule': crontab(minute=1),
     },
 }
 app.conf.timezone = 'Asia/Kolkata'
@@ -50,14 +49,14 @@ def fetch_and_save_tmdb_data():
                 if not data:
                     break  # No more data to fetch
                 for movie_data in data:
-                    movie = Movie()
-                    movie.title = movie_data.get('title', 'N/A')
-                    movie.overview = movie_data.get('overview', 'No overview available')
-                    movie.rating = movie_data.get('vote_average', 0.0)
-                    movie.release_date = movie_data.get('release_date', '0000-00-00')
-                    movie.save()
-                    page += 1
-                    logger.info(f"Movie {movie_data['title']} Saved")
+                    movie_obj = Movie.objects.filter(title=movie_data.get('title')).last()
+                    if movie_obj:
+                        pass
+                    else:
+                        Movie.objects.create(title=movie_data.get('title', 'N/A'), overview=movie_data.get('overview', 'No overview available'),
+                                                     rating=movie_data.get('vote_average', 0.0),release_date=movie_data.get('release_date', '0000-00-00'))
+                        page += 1
+                        logger.info(f"Movie {movie_data['title']} Saved")
             else:
                 logger.info(f"Failed to fetch data from TMDb API (page {page}): {response.status_code}")
                 break
