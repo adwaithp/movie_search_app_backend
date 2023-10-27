@@ -74,7 +74,7 @@ class CustomPagination(PageNumberPagination):
 @authentication_classes([TokenAuthentication])
 @permission_classes([IsAuthenticated])
 class MovieList(generics.ListAPIView):
-    queryset = Movie.objects.all()
+    queryset = Movie.objects.all().order_by('id')
     serializer_class = MovieSerializer
     pagination_class = CustomPagination
     def get_queryset(self):

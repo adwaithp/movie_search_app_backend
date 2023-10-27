@@ -64,11 +64,11 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     # Add any custom backends here
 ]
-# REST_FRAMEWORK = {
-#     'DEFAULT_AUTHENTICATION_CLASSES': (
-#         'rest_framework.authentication.TokenAuthentication',
-#     ),
-# }
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 12,  # Set the number of items per page
+}
+
 
 
 CORS_ALLOW_CREDENTIALS = True
@@ -78,12 +78,14 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
 ]
 
-CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Set your Celery broker URL
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'  # Set your Celery result backend
+CELERY_BROKER_URL = 'redis://redis:6379/0'  # Set your Celery broker URL
+CELERY_RESULT_BACKEND = 'redis://redis:6379/0'  # Set your Celery result backend
+CELERY_TIMEZONE = "Asia/Kolkata"
+CELERY_TASK_TRACK_STARTED = True
 
 CELERY_BEAT_SCHEDULE = {
     'fetch-tmdb-data-every-hour': {
-        'task': 'movie_search_project.tasks.fetch_and_save_tmdb_data',
+        'task': 'movie_search_app.tasks.fetch_and_save_tmdb_data',
         'schedule': crontab(minute=1),  # Run every hour
     },
 }

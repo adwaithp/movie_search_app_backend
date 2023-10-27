@@ -32,12 +32,12 @@ def fetch_and_save_tmdb_data():
                 data = response.json().get('results', [])
                 if not data:
                     break  # No more data to fetch
-                for movie in data:
+                for movie_data in data:
                     movie = Movie.objects.all().last()
-                    movie.title = movie['title']
-                    movie.overview = movie['overview']
-                    movie.rating = movie['vote_average']
-                    movie.release_date = movie['release_date'] if movie['release_date'] else '0000-00-00'
+                    movie.title = movie_data['title']
+                    movie.overview = movie_data['overview']
+                    movie.rating = movie_data['vote_average']
+                    movie.release_date = movie_data['release_date'] if movie_data['release_date'] else '0000-00-00'
                     movie.save()
                     page += 1
             else:
