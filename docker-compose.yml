@@ -10,7 +10,7 @@ services:
       - "8000:8000"
     depends_on:
       - db
-      - redis  # Add a dependency on the Redis container
+      - redis  #dependency on the Redis container
     environment:
       - DEBUG=True
       - DJANGO_DB_HOST=db
@@ -26,7 +26,7 @@ services:
       - .:/app
     depends_on:
       - db
-      - redis  # Add a dependency on the Redis container
+      - redis  #dependency on the Redis container
     environment:
       - DEBUG=True
       - DJANGO_SETTINGS_MODULE=movie_search_project.settings
@@ -40,7 +40,7 @@ services:
       - .:/app
     depends_on:
       - db
-      - redis  # Add a dependency on the Redis container
+      - redis  #dependency on the Redis container
     environment:
       - DEBUG=True
       - DJANGO_SETTINGS_MODULE=movie_search_project.settings

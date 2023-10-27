@@ -24,7 +24,6 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
 
-    # Add these related_name attributes to resolve the clashes
     groups = models.ManyToManyField('auth.Group', related_name='custom_users', blank=True)
     user_permissions = models.ManyToManyField('auth.Permission', related_name='custom_users', blank=True)
 

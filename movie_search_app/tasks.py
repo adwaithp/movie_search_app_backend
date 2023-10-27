@@ -1,4 +1,3 @@
-# your_app/management/commands/fetch_tmdb_data.py
 from celery import shared_task, Celery
 import requests
 from celery.schedules import crontab

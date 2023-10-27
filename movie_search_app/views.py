@@ -5,7 +5,6 @@ from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.generics import RetrieveAPIView
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
-
 from .models import CustomUser, Movie
 from .serializers import CustomUserSerializer, MovieSerializer
 from rest_framework.views import APIView
@@ -22,6 +21,7 @@ class UserRegistration(generics.CreateAPIView):
 
 class UserLogin(APIView):
     def post(self, request):
+
         try:
             print("Login api called")
             email = request.data.get('email')
@@ -39,14 +39,12 @@ class UserLogin(APIView):
             if user:
                 # Generate a new token or retrieve the existing token
                 token, created = Token.objects.get_or_create(user=user)
-
                 return Response({'token': token.key}, status=status.HTTP_200_OK)
             else:
                 return Response({'message': 'Login failed'}, status=status.HTTP_401_UNAUTHORIZED)
         except ProgrammingError as e:
             print(e)
             return Response({'message': e})
-
 
 
 class UserLogout(APIView):
@@ -77,6 +75,7 @@ class MovieList(generics.ListAPIView):
     queryset = Movie.objects.all().order_by('id')
     serializer_class = MovieSerializer
     pagination_class = CustomPagination
+
     def get_queryset(self):
         queryset = Movie.objects.all()
         search_query = self.request.query_params.get('keyword')
