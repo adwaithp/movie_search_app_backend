@@ -22,7 +22,6 @@ app.conf.timezone = 'Asia/Kolkata'
 
 @shared_task
 def fetch_and_save_tmdb_data():
-    print("2")
     try:
         logger.info(f"Cron job started")
         url = 'https://api.themoviedb.org/3/discover/movie'
@@ -54,7 +53,7 @@ def fetch_and_save_tmdb_data():
                         pass
                     else:
                         Movie.objects.create(title=movie_data.get('title', 'N/A'), overview=movie_data.get('overview', 'No overview available'),
-                                                     rating=movie_data.get('vote_average', 0.0),release_date=movie_data.get('release_date', '0000-00-00'))
+                                                     rating=movie_data.get('vote_average', 0.0),release_date=movie_data.get('release_date', '1000-01-01'))
                         page += 1
                         logger.info(f"Movie {movie_data['title']} Saved")
             else:

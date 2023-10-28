@@ -5,7 +5,8 @@ django.setup()
 import requests
 from movie_search_app.models import Movie
 from django.utils.timezone import now
-
+import logging
+from movie_search_app.tasks import logger
 
 def fetch_and_save_tmdb_data():
     try:
@@ -27,21 +28,25 @@ def fetch_and_save_tmdb_data():
             }
 
             response = requests.get(url, headers=headers, params=params)
-
+            logger.info(f"Task check poit api response")
             if response.status_code == 200:
                 data = response.json().get('results', [])
                 if not data:
                     break  # No more data to fetch
                 for movie_data in data:
-                    movie = Movie.objects.all().last()
-                    movie.title = movie_data['title']
-                    movie.overview = movie_data['overview']
-                    movie.rating = movie_data['vote_average']
-                    movie.release_date = movie_data['release_date'] if movie_data['release_date'] else '0000-00-00'
-                    movie.save()
-                    page += 1
+                    movie_obj = Movie.objects.filter(title=movie_data.get('title')).last()
+                    if movie_obj:
+                        pass
+                    else:
+                        Movie.objects.create(title=movie_data.get('title', 'N/A'),
+                                             overview=movie_data.get('overview', 'No overview available'),
+                                             rating=movie_data.get('vote_average', 0.0),
+                                             release_date=movie_data.get('release_date', '1000-01-01'))
+                        page += 1
+                        logger.info(f"Movie {movie_data['title']} Saved")
+                        print(f"Movie {movie_data['title']} Saved")
             else:
-                print(f"Failed to fetch data from TMDb API (page {page}): {response.status_code}")
+                logger.info(f"Failed to fetch data from TMDb API (page {page}): {response.status_code}")
                 break
 
         print(f"Saved {len(all_movies)} movies at {now()}")

@@ -1,0 +1,591 @@
+2023-10-28 10:30:02,844 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:05,859 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:10,150 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:13,464 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:17,074 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:18,649 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:20,073 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:22,440 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:24,249 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:26,739 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:28,070 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:29,606 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:31,861 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:32,866 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:34,270 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:36,277 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:37,900 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:38,904 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:40,972 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:42,281 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:44,265 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:46,708 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:48,447 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:50,292 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:51,687 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:53,066 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:55,206 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:57,357 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:30:58,790 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:00,333 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:02,272 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:03,910 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:05,394 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:06,880 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:08,416 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:10,745 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:12,117 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:13,624 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:14,921 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:16,249 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:17,938 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:20,252 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:24,324 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:26,260 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:28,590 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:29,921 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:31,761 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:33,404 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:35,142 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:36,168 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:36,986 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:38,684 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:40,847 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:47,532 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:48,966 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:50,197 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:52,141 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:52,868 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:53,779 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:54,905 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:55,826 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:57,055 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:31:58,239 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:00,537 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:02,816 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:05,247 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:14,591 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:17,447 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:20,300 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:21,276 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:23,198 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:24,499 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:26,677 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:30,144 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:31,259 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:32,385 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:33,410 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:34,539 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:37,557 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:32:39,032 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:00,967 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:00,995 - movie_search_app.tasks - INFO - Movie Five Nights at Freddy's Saved
+2023-10-28 10:51:01,001 - movie_search_app.tasks - INFO - Movie Expend4bles Saved
+2023-10-28 10:51:01,007 - movie_search_app.tasks - INFO - Movie Saw X Saved
+2023-10-28 10:51:01,012 - movie_search_app.tasks - INFO - Movie Mission: Impossible - Dead Reckoning Part One Saved
+2023-10-28 10:51:01,019 - movie_search_app.tasks - INFO - Movie The Exorcist: Believer Saved
+2023-10-28 10:51:01,026 - movie_search_app.tasks - INFO - Movie The Equalizer 3 Saved
+2023-10-28 10:51:01,032 - movie_search_app.tasks - INFO - Movie The Nun II Saved
+2023-10-28 10:51:01,038 - movie_search_app.tasks - INFO - Movie Mortal Kombat Legends: Cage Match Saved
+2023-10-28 10:51:01,043 - movie_search_app.tasks - INFO - Movie Desperation Road Saved
+2023-10-28 10:51:01,050 - movie_search_app.tasks - INFO - Movie Jigen Daisuke Saved
+2023-10-28 10:51:01,057 - movie_search_app.tasks - INFO - Movie Uri: The Surgical Strike Saved
+2023-10-28 10:51:01,063 - movie_search_app.tasks - INFO - Movie Nowhere Saved
+2023-10-28 10:51:01,070 - movie_search_app.tasks - INFO - Movie Sound of Freedom Saved
+2023-10-28 10:51:01,078 - movie_search_app.tasks - INFO - Movie Meg 2: The Trench Saved
+2023-10-28 10:51:01,085 - movie_search_app.tasks - INFO - Movie Ballerina Saved
+2023-10-28 10:51:01,091 - movie_search_app.tasks - INFO - Movie Gran Turismo Saved
+2023-10-28 10:51:01,097 - movie_search_app.tasks - INFO - Movie Blue Beetle Saved
+2023-10-28 10:51:01,103 - movie_search_app.tasks - INFO - Movie Fast X Saved
+2023-10-28 10:51:01,109 - movie_search_app.tasks - INFO - Movie 57 Seconds Saved
+2023-10-28 10:51:01,116 - movie_search_app.tasks - INFO - Movie PAW Patrol: The Mighty Movie Saved
+2023-10-28 10:51:01,777 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:01,784 - movie_search_app.tasks - INFO - Movie Star Wars Saved
+2023-10-28 10:51:01,790 - movie_search_app.tasks - INFO - Movie Fight Club Saved
+2023-10-28 10:51:01,796 - movie_search_app.tasks - INFO - Movie Spider-Man: Far From Home Saved
+2023-10-28 10:51:01,802 - movie_search_app.tasks - INFO - Movie Spider-Man Saved
+2023-10-28 10:51:01,808 - movie_search_app.tasks - INFO - Movie Ìjọ̀gbọ̀n Saved
+2023-10-28 10:51:01,814 - movie_search_app.tasks - INFO - Movie Boyka: Undisputed IV Saved
+2023-10-28 10:51:01,820 - movie_search_app.tasks - INFO - Movie Venom Saved
+2023-10-28 10:51:01,826 - movie_search_app.tasks - INFO - Movie The Out-Laws Saved
+2023-10-28 10:51:01,833 - movie_search_app.tasks - INFO - Movie Frozen II Saved
+2023-10-28 10:51:01,839 - movie_search_app.tasks - INFO - Movie Joker Saved
+2023-10-28 10:51:01,846 - movie_search_app.tasks - INFO - Movie Fear the Night Saved
+2023-10-28 10:51:01,852 - movie_search_app.tasks - INFO - Movie World War Z Saved
+2023-10-28 10:51:01,858 - movie_search_app.tasks - INFO - Movie Charm City Kings Saved
+2023-10-28 10:51:01,864 - movie_search_app.tasks - INFO - Movie Trolls World Tour Saved
+2023-10-28 10:51:01,869 - movie_search_app.tasks - INFO - Movie The Conjuring 2 Saved
+2023-10-28 10:51:01,876 - movie_search_app.tasks - INFO - Movie Eternals Saved
+2023-10-28 10:51:01,882 - movie_search_app.tasks - INFO - Movie 20th Century Girl Saved
+2023-10-28 10:51:01,888 - movie_search_app.tasks - INFO - Movie Mission: Impossible - Fallout Saved
+2023-10-28 10:51:01,894 - movie_search_app.tasks - INFO - Movie Pirates of the Caribbean: Dead Man's Chest Saved
+2023-10-28 10:51:01,901 - movie_search_app.tasks - INFO - Movie Stand by Me Doraemon Saved
+2023-10-28 10:51:02,504 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:02,510 - movie_search_app.tasks - INFO - Movie The Shining Saved
+2023-10-28 10:51:02,516 - movie_search_app.tasks - INFO - Movie Hotel Transylvania 3: Summer Vacation Saved
+2023-10-28 10:51:02,521 - movie_search_app.tasks - INFO - Movie The Dive Saved
+2023-10-28 10:51:02,527 - movie_search_app.tasks - INFO - Movie Prizefighter: The Life of Jem Belcher Saved
+2023-10-28 10:51:02,533 - movie_search_app.tasks - INFO - Movie Pearl Saved
+2023-10-28 10:51:02,539 - movie_search_app.tasks - INFO - Movie Scooby-Doo Saved
+2023-10-28 10:51:02,545 - movie_search_app.tasks - INFO - Movie Remember Saved
+2023-10-28 10:51:02,551 - movie_search_app.tasks - INFO - Movie Brothers Saved
+2023-10-28 10:51:02,557 - movie_search_app.tasks - INFO - Movie Cult of Chucky Saved
+2023-10-28 10:51:02,563 - movie_search_app.tasks - INFO - Movie Hotel Transylvania Saved
+2023-10-28 10:51:02,570 - movie_search_app.tasks - INFO - Movie Aquaman Saved
+2023-10-28 10:51:02,576 - movie_search_app.tasks - INFO - Movie Glass Onion: A Knives Out Mystery Saved
+2023-10-28 10:51:02,583 - movie_search_app.tasks - INFO - Movie 13 Hours: The Secret Soldiers of Benghazi Saved
+2023-10-28 10:51:02,589 - movie_search_app.tasks - INFO - Movie Snake Eyes: G.I. Joe Origins Saved
+2023-10-28 10:51:02,596 - movie_search_app.tasks - INFO - Movie Teen Wolf: The Movie Saved
+2023-10-28 10:51:02,602 - movie_search_app.tasks - INFO - Movie A Bug's Life Saved
+2023-10-28 10:51:02,609 - movie_search_app.tasks - INFO - Movie Marlon Wayans Presents: The Headliners Saved
+2023-10-28 10:51:02,615 - movie_search_app.tasks - INFO - Movie Memory Saved
+2023-10-28 10:51:02,622 - movie_search_app.tasks - INFO - Movie Maze Runner: The Scorch Trials Saved
+2023-10-28 10:51:02,628 - movie_search_app.tasks - INFO - Movie The Devil Wears Prada Saved
+2023-10-28 10:51:03,322 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:03,331 - movie_search_app.tasks - INFO - Movie Malignant Saved
+2023-10-28 10:51:03,337 - movie_search_app.tasks - INFO - Movie One Hundred and One Dalmatians Saved
+2023-10-28 10:51:03,343 - movie_search_app.tasks - INFO - Movie The Witch Saved
+2023-10-28 10:51:03,349 - movie_search_app.tasks - INFO - Movie Sentinelle Saved
+2023-10-28 10:51:03,356 - movie_search_app.tasks - INFO - Movie Red Sparrow Saved
+2023-10-28 10:51:03,362 - movie_search_app.tasks - INFO - Movie The Iron Giant Saved
+2023-10-28 10:51:03,368 - movie_search_app.tasks - INFO - Movie The Hummingbird Saved
+2023-10-28 10:51:03,374 - movie_search_app.tasks - INFO - Movie The Great Escape Saved
+2023-10-28 10:51:03,380 - movie_search_app.tasks - INFO - Movie 22 Jump Street Saved
+2023-10-28 10:51:03,386 - movie_search_app.tasks - INFO - Movie The Ritual Saved
+2023-10-28 10:51:03,392 - movie_search_app.tasks - INFO - Movie X-Men: Days of Future Past Saved
+2023-10-28 10:51:03,398 - movie_search_app.tasks - INFO - Movie Los bastardos Saved
+2023-10-28 10:51:03,404 - movie_search_app.tasks - INFO - Movie The Autopsy of Jane Doe Saved
+2023-10-28 10:51:03,410 - movie_search_app.tasks - INFO - Movie Strange Way of Life Saved
+2023-10-28 10:51:03,417 - movie_search_app.tasks - INFO - Movie No Manches Frida Saved
+2023-10-28 10:51:03,423 - movie_search_app.tasks - INFO - Movie Hotel Paradise Saved
+2023-10-28 10:51:03,429 - movie_search_app.tasks - INFO - Movie Elvis the Pig Saved
+2023-10-28 10:51:03,435 - movie_search_app.tasks - INFO - Movie Deep Sea Saved
+2023-10-28 10:51:03,442 - movie_search_app.tasks - INFO - Movie Greyhound Saved
+2023-10-28 10:51:03,448 - movie_search_app.tasks - INFO - Movie Kiki's Delivery Service Saved
+2023-10-28 10:51:04,144 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:04,152 - movie_search_app.tasks - INFO - Movie Mary Magdalene Saved
+2023-10-28 10:51:04,158 - movie_search_app.tasks - INFO - Movie American Beauty Saved
+2023-10-28 10:51:04,164 - movie_search_app.tasks - INFO - Movie Tom Clancy's Without Remorse Saved
+2023-10-28 10:51:04,170 - movie_search_app.tasks - INFO - Movie Ghostbusters Saved
+2023-10-28 10:51:04,176 - movie_search_app.tasks - INFO - Movie Mona Lisa and the Blood Moon Saved
+2023-10-28 10:51:04,182 - movie_search_app.tasks - INFO - Movie Magic Mike's Last Dance Saved
+2023-10-28 10:51:04,188 - movie_search_app.tasks - INFO - Movie Clock Saved
+2023-10-28 10:51:04,194 - movie_search_app.tasks - INFO - Movie Bed Rest Saved
+2023-10-28 10:51:04,200 - movie_search_app.tasks - INFO - Movie That Malicious Age Saved
+2023-10-28 10:51:04,207 - movie_search_app.tasks - INFO - Movie The Mummy: Tomb of the Dragon Emperor Saved
+2023-10-28 10:51:04,213 - movie_search_app.tasks - INFO - Movie Deep Sea Python Saved
+2023-10-28 10:51:04,219 - movie_search_app.tasks - INFO - Movie Bāhubali 2: The Conclusion Saved
+2023-10-28 10:51:04,225 - movie_search_app.tasks - INFO - Movie Love & Other Drugs Saved
+2023-10-28 10:51:04,232 - movie_search_app.tasks - INFO - Movie Total Recall Saved
+2023-10-28 10:51:04,237 - movie_search_app.tasks - INFO - Movie The Mount 2 Saved
+2023-10-28 10:51:04,244 - movie_search_app.tasks - INFO - Movie Barbie: Princess Charm School Saved
+2023-10-28 10:51:04,250 - movie_search_app.tasks - INFO - Movie Wanted Saved
+2023-10-28 10:51:04,256 - movie_search_app.tasks - INFO - Movie Alvin and the Chipmunks: Chipwrecked Saved
+2023-10-28 10:51:04,262 - movie_search_app.tasks - INFO - Movie Knock Knock Saved
+2023-10-28 10:51:04,267 - movie_search_app.tasks - INFO - Movie Friends with Benefits Saved
+2023-10-28 10:51:04,858 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:04,867 - movie_search_app.tasks - INFO - Movie The Butterfly Effect Saved
+2023-10-28 10:51:04,873 - movie_search_app.tasks - INFO - Movie War Dogs Saved
+2023-10-28 10:51:04,880 - movie_search_app.tasks - INFO - Movie The Lego Movie Saved
+2023-10-28 10:51:04,886 - movie_search_app.tasks - INFO - Movie The Girl with the Dragon Tattoo Saved
+2023-10-28 10:51:04,893 - movie_search_app.tasks - INFO - Movie A Beautiful Mind Saved
+2023-10-28 10:51:04,899 - movie_search_app.tasks - INFO - Movie Hitman's Wife's Bodyguard Saved
+2023-10-28 10:51:04,905 - movie_search_app.tasks - INFO - Movie My Hero Academia: Heroes Rising Saved
+2023-10-28 10:51:04,911 - movie_search_app.tasks - INFO - Movie Annie Saved
+2023-10-28 10:51:04,917 - movie_search_app.tasks - INFO - Movie Mary Poppins Saved
+2023-10-28 10:51:04,924 - movie_search_app.tasks - INFO - Movie I'm Not Ashamed Saved
+2023-10-28 10:51:04,930 - movie_search_app.tasks - INFO - Movie Ghostbusters II Saved
+2023-10-28 10:51:04,936 - movie_search_app.tasks - INFO - Movie The Cat Returns Saved
+2023-10-28 10:51:04,942 - movie_search_app.tasks - INFO - Movie Tinker Bell Saved
+2023-10-28 10:51:04,948 - movie_search_app.tasks - INFO - Movie The Untouchables Saved
+2023-10-28 10:51:04,955 - movie_search_app.tasks - INFO - Movie Snoopy Presents: One-of-a-Kind Marcie Saved
+2023-10-28 10:51:04,961 - movie_search_app.tasks - INFO - Movie Brother Bear 2 Saved
+2023-10-28 10:51:04,967 - movie_search_app.tasks - INFO - Movie The Mitchells vs. the Machines Saved
+2023-10-28 10:51:04,973 - movie_search_app.tasks - INFO - Movie Wonder Saved
+2023-10-28 10:51:04,980 - movie_search_app.tasks - INFO - Movie The Great Gatsby Saved
+2023-10-28 10:51:04,986 - movie_search_app.tasks - INFO - Movie South Park: Bigger, Longer & Uncut Saved
+2023-10-28 10:51:05,576 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:05,583 - movie_search_app.tasks - INFO - Movie The Empire Strikes Back Saved
+2023-10-28 10:51:05,590 - movie_search_app.tasks - INFO - Movie C'è ancora domani Saved
+2023-10-28 10:51:05,596 - movie_search_app.tasks - INFO - Movie Poltergeist Saved
+2023-10-28 10:51:05,602 - movie_search_app.tasks - INFO - Movie Little Dixie Saved
+2023-10-28 10:51:05,608 - movie_search_app.tasks - INFO - Movie The Legend of Tarzan Saved
+2023-10-28 10:51:05,614 - movie_search_app.tasks - INFO - Movie The Father Saved
+2023-10-28 10:51:05,620 - movie_search_app.tasks - INFO - Movie 28 Weeks Later Saved
+2023-10-28 10:51:05,626 - movie_search_app.tasks - INFO - Movie Godzilla Saved
+2023-10-28 10:51:05,633 - movie_search_app.tasks - INFO - Movie Munthiri Kaadu Saved
+2023-10-28 10:51:05,639 - movie_search_app.tasks - INFO - Movie Abominable Saved
+2023-10-28 10:51:05,645 - movie_search_app.tasks - INFO - Movie Minions Saved
+2023-10-28 10:51:05,652 - movie_search_app.tasks - INFO - Movie Brian Banks Saved
+2023-10-28 10:51:05,658 - movie_search_app.tasks - INFO - Movie Casablanca Saved
+2023-10-28 10:51:05,664 - movie_search_app.tasks - INFO - Movie The Kissing Booth 2 Saved
+2023-10-28 10:51:05,669 - movie_search_app.tasks - INFO - Movie The Mummy Saved
+2023-10-28 10:51:05,675 - movie_search_app.tasks - INFO - Movie Walking Tall Saved
+2023-10-28 10:51:05,680 - movie_search_app.tasks - INFO - Movie The Man from Earth Saved
+2023-10-28 10:51:05,686 - movie_search_app.tasks - INFO - Movie Shaft Saved
+2023-10-28 10:51:05,692 - movie_search_app.tasks - INFO - Movie Hustle Saved
+2023-10-28 10:51:05,698 - movie_search_app.tasks - INFO - Movie Don't Blame Karma! Saved
+2023-10-28 10:51:06,292 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:06,301 - movie_search_app.tasks - INFO - Movie Young Mother 3 Saved
+2023-10-28 10:51:06,307 - movie_search_app.tasks - INFO - Movie Parker Saved
+2023-10-28 10:51:06,313 - movie_search_app.tasks - INFO - Movie Species Saved
+2023-10-28 10:51:06,320 - movie_search_app.tasks - INFO - Movie Notorious Saved
+2023-10-28 10:51:06,326 - movie_search_app.tasks - INFO - Movie A Time to Kill Saved
+2023-10-28 10:51:06,332 - movie_search_app.tasks - INFO - Movie The Smile of the Fox Saved
+2023-10-28 10:51:06,339 - movie_search_app.tasks - INFO - Movie P.O. Box Tinto Brass Saved
+2023-10-28 10:51:06,345 - movie_search_app.tasks - INFO - Movie Playing It Cool Saved
+2023-10-28 10:51:06,352 - movie_search_app.tasks - INFO - Movie The Birds Saved
+2023-10-28 10:51:06,357 - movie_search_app.tasks - INFO - Movie Minority Report Saved
+2023-10-28 10:51:06,364 - movie_search_app.tasks - INFO - Movie Nothing Serious Saved
+2023-10-28 10:51:06,370 - movie_search_app.tasks - INFO - Movie Empire of Lust Saved
+2023-10-28 10:51:06,376 - movie_search_app.tasks - INFO - Movie Lame de fond Saved
+2023-10-28 10:51:06,382 - movie_search_app.tasks - INFO - Movie Killer Klowns from Outer Space Saved
+2023-10-28 10:51:33,734 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:34,146 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:34,554 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:34,964 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:35,375 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:35,784 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:37,115 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:37,542 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:37,934 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:38,447 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:40,392 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:40,801 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:41,213 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:41,621 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:42,031 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:42,440 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:42,846 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:43,258 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:43,772 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:44,388 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:44,754 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:45,103 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:45,512 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:45,984 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:46,331 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:46,741 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:47,265 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:47,765 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:48,173 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:48,584 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:48,993 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:49,402 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:49,813 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:50,212 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:50,939 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:51,325 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:51,758 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:52,066 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:52,458 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:52,885 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:53,298 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:53,808 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:54,525 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:54,932 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:55,752 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:56,167 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:56,571 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:56,997 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:57,302 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:57,801 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:58,210 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:58,623 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:59,032 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:51:59,519 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:00,268 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:00,668 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:02,203 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:02,612 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:03,022 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:03,534 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:03,946 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:04,355 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:04,763 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:05,173 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:05,582 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:05,992 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:06,504 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:06,913 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:07,835 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:08,450 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:08,859 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:09,268 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:09,885 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:10,260 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:10,608 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:11,009 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:11,419 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:11,828 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:12,341 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:13,674 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:14,081 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:14,491 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:14,799 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:15,412 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:15,824 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:16,234 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:16,744 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:17,154 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:17,688 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:18,075 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:18,587 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:19,100 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:19,517 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:19,918 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:20,328 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:20,738 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:21,147 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:21,527 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:21,864 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:22,376 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:22,895 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:23,297 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:23,708 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:24,116 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:24,527 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:24,948 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:25,346 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:25,755 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:26,267 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:26,677 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:27,189 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:27,600 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:28,009 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:28,420 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:28,831 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:29,237 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:29,648 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:30,055 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:30,466 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:30,876 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:31,335 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:31,832 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:32,206 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:32,616 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:33,025 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:33,435 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:33,845 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:34,254 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:34,665 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:35,278 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:35,688 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:36,199 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:36,609 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:37,019 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:37,429 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:37,840 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:38,287 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:38,659 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:39,069 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:39,476 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:39,892 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:40,500 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:40,910 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:41,320 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:41,628 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:42,108 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:42,549 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:42,958 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:43,369 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:43,880 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:44,165 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:44,573 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:44,904 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:45,416 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:46,136 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:46,644 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:47,158 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:47,668 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:48,079 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:48,488 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:48,904 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:49,410 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:50,741 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:51,150 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:51,531 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:51,969 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:52,379 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:52,792 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:53,710 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:54,141 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:54,530 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:54,938 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:55,367 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:55,720 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:56,065 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:56,578 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:56,936 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:57,750 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:58,114 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:58,523 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:52:58,905 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:00,205 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:00,674 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:01,083 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:01,671 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:03,439 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:04,258 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:04,773 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:06,394 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:09,492 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:12,772 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:14,721 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:17,365 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:19,680 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:21,315 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:23,053 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:24,418 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:32,248 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:36,269 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:43,126 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:55,048 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:56,835 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:53:59,351 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:01,091 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:02,318 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:04,981 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:06,005 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:06,648 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:08,077 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:09,036 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:09,802 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:10,715 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:11,841 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:12,527 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:13,378 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:14,379 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:15,024 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:16,142 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:16,792 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:17,539 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:18,600 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:20,343 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:22,184 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:23,115 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:24,127 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:26,154 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:27,610 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:28,689 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:29,967 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:30,890 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:31,812 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:33,039 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:33,993 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:35,447 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:35,937 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:36,623 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:37,352 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:38,261 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:38,978 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:40,721 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:41,747 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:42,357 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:43,483 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:44,098 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:45,224 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:50,358 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:51,063 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:51,880 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:52,699 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:53,388 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:54,645 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:56,181 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:57,717 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:54:59,051 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:01,819 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:04,681 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:12,675 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:13,589 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:15,844 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:18,504 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:19,836 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:21,589 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:23,625 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:29,461 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:32,943 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:36,022 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:38,676 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:42,570 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:44,759 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:46,767 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:53,628 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:56,290 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:55:57,928 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:00,795 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:03,663 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:04,796 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:07,349 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:09,909 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:12,691 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:13,903 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:17,240 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:20,661 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:24,831 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:27,932 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:30,389 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:32,232 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:35,527 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:37,864 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:38,787 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:56:41,261 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:19,950 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:22,513 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:25,787 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:28,000 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:29,576 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:32,238 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:35,531 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:36,847 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:41,148 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:41,841 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:44,129 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:46,473 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:50,253 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:54,153 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:57:57,123 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:00,994 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:03,573 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:06,645 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:07,570 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:09,923 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:12,187 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:14,325 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:17,002 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:19,345 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:23,922 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:25,487 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:27,842 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:31,529 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:33,679 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:36,547 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:39,476 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:42,323 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:44,635 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:46,173 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:48,014 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:52,011 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:53,648 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:55,490 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:58:58,563 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:00,407 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:02,249 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:04,912 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:06,243 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:09,316 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:11,464 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:14,403 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:16,285 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:19,250 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:22,647 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:26,315 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:27,656 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:32,683 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:37,895 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:40,052 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:42,155 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 10:59:58,661 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 11:00:26,737 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 11:01:05,161 - movie_search_app.tasks - INFO - Task check poit api response
+2023-10-28 11:01:44,333 - movie_search_app.tasks - INFO - Task check poit api response
