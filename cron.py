@@ -38,13 +38,16 @@ def fetch_and_save_tmdb_data():
                     if movie_obj:
                         pass
                     else:
-                        Movie.objects.create(title=movie_data.get('title', 'N/A'),
-                                             overview=movie_data.get('overview', 'No overview available'),
-                                             rating=movie_data.get('vote_average', 0.0),
-                                             release_date=movie_data.get('release_date', '1000-01-01'))
-                        page += 1
-                        logger.info(f"Movie {movie_data['title']} Saved")
-                        print(f"Movie {movie_data['title']} Saved")
+                        try:
+                            Movie.objects.create(title=movie_data.get('title', 'N/A'),
+                                                 overview=movie_data.get('overview', 'No overview available'),
+                                                 rating=movie_data.get('vote_average', 0.0),
+                                                 release_date=movie_data.get('release_date', '1000-01-01'))
+                            page += 1
+                            logger.info(f"Movie {movie_data['title']} Saved")
+                            print(f"Movie {movie_data['title']} Saved")
+                        except:
+                            pass
             else:
                 logger.info(f"Failed to fetch data from TMDb API (page {page}): {response.status_code}")
                 break
