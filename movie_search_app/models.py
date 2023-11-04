@@ -46,3 +46,11 @@ class Movie(models.Model):
     def __str__(self):
         return self.title
 
+
+class UserFavorite(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.user.email}'s Favorite: {self.movie.title}"
+

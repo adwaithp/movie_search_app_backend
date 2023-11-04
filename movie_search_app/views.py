@@ -1,12 +1,12 @@
 from django.db import ProgrammingError
-from rest_framework import generics
+from rest_framework import generics, viewsets, permissions
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.generics import RetrieveAPIView
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
-from .models import CustomUser, Movie
-from .serializers import CustomUserSerializer, MovieSerializer
+from .models import CustomUser, Movie, UserFavorite
+from .serializers import CustomUserSerializer, MovieSerializer, UserFavoriteSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -23,19 +23,10 @@ class UserLogin(APIView):
     def post(self, request):
 
         try:
-            print("Login api called")
             email = request.data.get('email')
-            print(email)
             password = request.data.get('password')
-            print(password)
 
             user = authenticate(request, username=email, password=password)
-            print(user)
-            if CustomUser.objects.filter(email=email, password=password).exists():
-                print("User exists")
-            else:
-                print("Not exists")
-
             if user:
                 # Generate a new token or retrieve the existing token
                 token, created = Token.objects.get_or_create(user=user)
@@ -43,7 +34,6 @@ class UserLogin(APIView):
             else:
                 return Response({'message': 'Login failed'}, status=status.HTTP_401_UNAUTHORIZED)
         except ProgrammingError as e:
-            print(e)
             return Response({'message': e})
 
 
@@ -80,7 +70,6 @@ class MovieList(generics.ListAPIView):
         queryset = Movie.objects.all()
         search_query = self.request.query_params.get('keyword')
         if search_query:
-            print(search_query)
             queryset = queryset.filter(title__icontains=search_query)
 
         return queryset
@@ -91,3 +80,63 @@ class MovieList(generics.ListAPIView):
 class MovieDetailAPIView(RetrieveAPIView):
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
+
+
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+class AddFavoriteMovie(APIView):
+
+    def get(self, request, *args, **kwargs):
+        movie_id = kwargs.get('pk')
+        user = self.request.user
+        try:
+            user_favorite = UserFavorite.objects.get(user=user, movie_id=movie_id)
+            return Response({"is_favorite": True}, status=status.HTTP_200_OK)
+        except UserFavorite.DoesNotExist:
+            return Response({"is_favorite": False}, status=status.HTTP_200_OK)
+
+    def post(self, request, *args, **kwargs):
+        try:
+            user = request.user
+            movie_id = kwargs.get('pk')
+            movie = Movie.objects.get(id=movie_id)
+            UserFavorite.objects.create(user=user,movie=movie)
+            return Response({"is_favorite": True}, status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({f"Something went wrong {e}"}, status=status.HTTP_200_OK)
+
+    def delete(self, request, *args, **kwargs):
+        try:
+            user = request.user
+            movie_id = kwargs.get('pk')
+            user_favorite = UserFavorite.objects.get(user=user, movie_id=movie_id)
+            user_favorite.delete()
+            return Response({"is_favorite": False}, status=status.HTTP_200_OK)
+        except UserFavorite.DoesNotExist:
+            return Response({"is_favorite": False}, status=status.HTTP_200_OK)
+
+
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
+class FavoriteMovieList(generics.ListAPIView):
+    serializer_class = UserFavoriteSerializer
+
+    def get(self, request, *args, **kwargs):
+        user = self.request.user  # Get the currently authenticated user
+        queryset = UserFavorite.objects.filter(user=user)
+        serializer = self.get_serializer(queryset, many=True)
+        response_data = []
+
+        for favorite in queryset:
+            movie_data = {
+                "id": favorite.movie.id,
+                "title": favorite.movie.title,
+                "overview": favorite.movie.overview,
+                "rating": favorite.movie.rating,
+                "release_date": favorite.movie.release_date,
+            }
+            response_data.append(movie_data)
+
+        return Response(response_data)
+
+

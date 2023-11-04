@@ -1,7 +1,7 @@
 # serializers.py
 from django.contrib.auth.hashers import make_password
 from rest_framework import serializers
-from .models import CustomUser, Movie
+from .models import CustomUser, Movie, UserFavorite
 
 
 class CustomUserSerializer(serializers.ModelSerializer):
@@ -21,3 +21,8 @@ class MovieSerializer(serializers.ModelSerializer):
     class Meta:
         model = Movie
         fields = ['id', 'title', 'overview', 'rating', 'release_date']
+
+class UserFavoriteSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserFavorite
+        fields = '__all__'
