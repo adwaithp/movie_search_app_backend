@@ -1,7 +1,8 @@
 from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView
 from django.contrib import admin
 from django.urls import path
-from movie_search_app.views import UserRegistration, UserLogin, MovieList, MovieDetailAPIView, UserLogout
+from movie_search_app.views import UserRegistration, UserLogin, MovieList, MovieDetailAPIView, UserLogout, \
+    AddFavoriteMovie,FavoriteMovieList
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -12,4 +13,7 @@ urlpatterns = [
     path('movies/', MovieList.as_view(), name='movie-list'),
     path('movies/<int:pk>/', MovieDetailAPIView.as_view(), name='movie-detail'),
     path('logout/', UserLogout.as_view(), name='logout'),
+    path('favorites/add/', AddFavoriteMovie.as_view(), name='add-favorite-movie'),
+    path('favorites/add/<int:pk>/', AddFavoriteMovie.as_view(), name='add-favorite-movie'),
+    path('favorites/', FavoriteMovieList.as_view(), name='user-favorite-list'),
 ]
